@@ -34,9 +34,8 @@
 <!-- PROJECT DESCRIPTION -->
 <div align="center">
 
-# 📖 Actions App
+# 📖 Hello world App
 
-**"Elevate every exchange"** 
 </div>
  <a name="about-project"></a>
 
