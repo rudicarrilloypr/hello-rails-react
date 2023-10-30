@@ -1,10 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from '../components/App';
+import { Provider } from 'react-redux';
+import store from '../store/store'; 
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <App />,
-    document.body.appendChild(document.createElement('div')),
+  const root = document.body.appendChild(document.createElement('div'));
+  const appRoot = createRoot(root);
+  
+  appRoot.render(
+    <Provider store={store}>
+      <App />
+    </Provider>
   );
 });

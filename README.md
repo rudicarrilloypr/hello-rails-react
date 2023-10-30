@@ -2,7 +2,7 @@
 
 <div align="center">
   <br/>
-    <h3><b> Hello World 📈</b></h3>
+    <h3><b> Hello World </b></h3>
     
   <br/>
 
@@ -48,6 +48,7 @@ exercise that will help me connect previous knowledge with new knowledge as I ge
 ## 🛠 Built With <a name="built-with"></a>
 - Ruby on Rails
 - React
+- Webpack
 
 ### Tech Stack <a name="tech-stack"></a>
 

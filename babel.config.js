@@ -17,7 +17,7 @@ module.exports = function (api) {
 
   return {
     presets: [
-      '@babel/preset-react', // Added this line
+      '@babel/preset-react',
       isTestEnv && [
         '@babel/preset-env',
         {
