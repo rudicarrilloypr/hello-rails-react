@@ -7,8 +7,8 @@ function Greeting() {
   useEffect(() => {
     // Fetch the greeting from the Rails API
     fetch('/random_greeting')
-      .then(response => response.json())
-      .then(data => {
+      .then((response) => response.json())
+      .then((data) => {
         dispatch({ type: 'SET_GREETING', payload: data.message });
       });
   }, [dispatch]);

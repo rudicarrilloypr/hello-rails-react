@@ -6,10 +6,10 @@ import { GreetingProvider } from '../contexts/GreetingContext';
 function App() {
   return (
     <GreetingProvider>
-    <Router>
-      <Route path="/greeting" component={Greeting} />
-    </Router>
-   </GreetingProvider>
+      <Router>
+        <Route path="/greeting" component={Greeting} />
+      </Router>
+    </GreetingProvider>
   );
 }
 

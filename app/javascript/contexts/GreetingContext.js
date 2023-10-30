@@ -1,11 +1,11 @@
 import React, { createContext, useReducer } from 'react';
 
-const initialState = { message: "" };
+const initialState = { message: '' };
 const GreetingContext = createContext(initialState);
 
 const reducer = (state, action) => {
   switch (action.type) {
-    case "SET_GREETING":
+    case 'SET_GREETING':
       return { ...state, message: action.payload };
     default:
       return state;
